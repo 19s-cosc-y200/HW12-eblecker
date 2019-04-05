@@ -1,0 +1,50 @@
+<!-- Project Name: HW12
+Author: Emilie Blecker
+Date Last Modified: 4/5/2019-->
+
+Write the HTML and CSS code for an embedded style sheet that configures links without underlines; a background color of white; text color of black; is in Arial, Helvetica, or a sans-serif font; and has a class called new that is bold and italic.
+
+
+#new
+{
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<div id = "new">
+<head>
+  <title>Q1</title>
+  <meta charset="utf-8">
+</head>
+<link rel = "stylesheet" href = "test.css" />
+<body style = "background-color: white; color: black; font-style: arial;"> 
+    <nav>
+        <b><a style = "text-decoration: none;" href ="test.html">example</a> &nbsp;
+    </nav>
+    <p>         
+      Write the HTML and CSS code for an embedded style sheet that configures links without underlines; a background color of white; text color of black; is in Arial, Helvetica, or a sans-serif font; and has a class called new that is bold and italic.
+    </p>
+
+</body>
+</div>
+</html>
+
+
+
+Write the CSS code for an external style sheet that configures a page background color of #FFF8DC; has a text color of #000099; is in Arial, Helvetica, or a sans-serif font; and has an id called new that is bold and italic.
+
+body
+{
+    background-color: #fff8dc;
+    color: #00009;
+    font-style: arial;
+}
+
+#new
+{
+    font-weight: bold;
+    font-style: italic;
+}
