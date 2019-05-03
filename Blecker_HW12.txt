@@ -11,6 +11,9 @@ Write the HTML and CSS code for an embedded style sheet that configures links wi
     font-style: italic;
 }
 
+class, not id
+missing style tag
+should be a, not for body
 
 <!DOCTYPE html>
 <html lang="en">
@@ -42,6 +45,7 @@ body
     color: #00009;
     font-style: arial;
 }
+error in HEX codes
 
 #new
 {
